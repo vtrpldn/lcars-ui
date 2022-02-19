@@ -1,9 +1,8 @@
 {
   "name": "@vtrpldn/lcars-ui",
   "private": false,
-  "main": "./components/output.js",
   "files": [
-    "./components/output.js"
+    "/components/output.js"
   ],
   "scripts": {
     "dev": "next dev",
@@ -15,7 +14,6 @@
     "build-library": "NODE_ENV=production rollup -c"
   },
   "dependencies": {
-    "@vtrpldn/lcars-ui": "^0.0.2",
     "next": "12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -50,5 +48,5 @@
   "resolutions": {
     "webpack": "^5"
   },
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
