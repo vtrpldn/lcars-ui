@@ -1,8 +1,9 @@
 {
   "name": "@vtrpldn/lcars-ui",
   "private": false,
+  "main": "components/output.js",
   "files": [
-    "/components/output.js"
+    "components/output.js"
   ],
   "scripts": {
     "dev": "next dev",
@@ -48,5 +49,5 @@
   "resolutions": {
     "webpack": "^5"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
